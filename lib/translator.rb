@@ -14,9 +14,10 @@ end
 emoticon_lib
 end
 
-def get_japanese_emoticon(emoticons_yml)
+def get_japanese_emoticon(emoticons_yml, emoticon)
   # code goes here
-  load_library = 
+  emoticon_lib = load_library(emoticons_yml)
+  
 end
 
 def get_english_meaning
