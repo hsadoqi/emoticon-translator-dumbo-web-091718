@@ -17,6 +17,7 @@ end
 def get_japanese_emoticon(emoticons_yml, emoticon)
   # code goes here
   emoticon_lib = load_library(emoticons_yml)
+  japanese_emoticon = emoticon_lib['get_emoticon'][emoticon]
   
 end
 
