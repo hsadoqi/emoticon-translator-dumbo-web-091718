@@ -14,7 +14,7 @@ end
 emoticon_lib
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emoticons, )
   # code goes here
 end
 
