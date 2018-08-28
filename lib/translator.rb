@@ -26,5 +26,4 @@ def get_english_meaning(emoticons_yml, emoticon)
   english_emoticon = emoticon_lib['get_meaning'][emoticon]
   english_emoticon ? english_emoticon : 'Sorry, that emoticon was not found'
   # code goes here
-  
 end
